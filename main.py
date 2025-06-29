@@ -14,12 +14,12 @@ from backdoor import main_start, get_doctor_answer
 logging.basicConfig(level=logging.INFO)
 
 # Объект бота
-bot = Bot(token="7559786010:AAHsA-nVQ8dVwv9BhC9iTpq1UeG-8j5N7gM")
+bot = Bot(token="")
 # Диспетчер
 dp = Dispatcher()
 
 # Замените на ID чата, куда хотите пересылать сообщения
-TARGET_CHAT_ID = -1002494968618
+TARGET_CHAT_ID = 
 
 # Хранение ID пользователей и их сообщений
 user_messages = dict()
